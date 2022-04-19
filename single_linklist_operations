@@ -5,7 +5,7 @@
 _______________________
 
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 #include<stdlib.h>
 typedef struct lklist{
 int info;
@@ -15,7 +15,10 @@ void main()
 {
 node * head=NULL,*temp,*ptr;
 int n,data,pos,i=1,count=0,i1=1,count1=0;
-clrscr();
+//clrscr();
+
+
+
 
 while(1)
 {
@@ -197,5 +200,5 @@ case 9:
 exit(1);
 }
 }
-getch();
-}
+//getch();
+} 
